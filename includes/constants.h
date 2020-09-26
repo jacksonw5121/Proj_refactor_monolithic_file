@@ -8,9 +8,7 @@
 //============================================================================
 #ifndef CONSTANTS_H_
 #define CONSTANTS_H_
-
 #include <string>
-#include <vector>
 
 //default files to read and write data
 const std::string SOURCE_FILE 	= "source_file.txt";
@@ -30,4 +28,4 @@ const int			UNINITIALIZED					=  SUCCESS - 5;
 enum SORT_ORDER { PROCESS_NUMBER, CPU_TIME, START_TIME };
 struct process{	int process_number=UNINITIALIZED; int cpu_time=UNINITIALIZED; int start_time=UNINITIALIZED;};
 
-#endif // CONSTANTS
+#endif // CONSTANTS_H_

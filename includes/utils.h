@@ -6,10 +6,8 @@
 // Description : Contains sortData, getNext, getSize and handleMissingData 
 //               function delcarations and all necessary includes.
 //============================================================================
-
 #ifndef UTILS_H_
 #define UTILS_H_
-
 #include <vector>
 #include "constants.h"
 
